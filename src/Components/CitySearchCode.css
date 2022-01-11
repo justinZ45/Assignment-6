@@ -1,0 +1,20 @@
+#city-head
+{
+    text-align: center;
+}
+
+.citySearch
+{
+    background-color:lightslategrey;
+    padding-bottom: 200px;
+}
+
+#no-city
+{
+    text-align: center;
+}
+
+#city-submit{
+    background-color: green;;
+    color: black;
+}
