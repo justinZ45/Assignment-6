@@ -26,7 +26,7 @@ export class ZipSearchCode extends Component {
     {
         try{
             
-            let apiRespond = await fetch("http://ctp-zip-api.herokuapp.com/zip/" + this.state.zipCode) //collect and receive data from API
+            let apiRespond = await fetch("https://ctp-zip-api.herokuapp.com/zip/" + this.state.zipCode) //collect and receive data from API
             
             
             let data = await apiRespond.json();

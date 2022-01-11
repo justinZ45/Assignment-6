@@ -22,7 +22,7 @@ export class CitySearchCode extends Component {
     {
         try{
 
-            let apiRespond = await fetch("http://ctp-zip-api.herokuapp.com/city/" + this.state.city); //receive data from API
+            let apiRespond = await fetch("https://ctp-zip-api.herokuapp.com/city/" + this.state.city); //receive data from API
             
             let data = await apiRespond.json();
 
